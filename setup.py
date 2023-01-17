@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 from setuptools import find_packages, setup
 
-with open('README.md') as f:
+with open('README.md',encoding='utf-8') as f:
     readme = f.read()
 with open('requirements/build.txt',encoding='utf-8') as f:
     requirements = f.read()
